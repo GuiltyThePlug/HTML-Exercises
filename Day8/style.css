@@ -1,0 +1,51 @@
+ul {
+  list-style-type : none;
+  margin : 0;
+  padding : 0;
+  width : 200px;
+  background-color : #f1f1f1;
+}
+
+li a {
+  display : block;
+  color : #000;
+  padding: 8px 16px;
+  text-decoration : none;
+}
+
+li a:hover {
+  background-color : #555;
+  color : white;
+}
+
+table {
+  border : 1px solid black;
+  width : 50%;
+  height : 32px;
+  font-family: san-serif;
+  margin : 10px 10px
+}
+
+tr {
+  border : 1px solid black;
+  background-color : #f3f3f3;
+  height : 32px; 
+}
+
+tr:nth-child(even) {
+  background-color : #d9d9d9;
+}
+
+tr:first-of-type {
+  background-color: #dc143c
+}
+
+th {
+  border : 1px solid black;
+  height : 32px;
+}
+
+td {
+  border : 1px solid black;
+  height : 32px;
+}
